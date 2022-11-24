@@ -1,0 +1,19 @@
+{
+    "version":  "0.2.2",
+    "license":  "MIT",
+    "description": "Tools for various automations 🧰",
+    "homepage": "https://github.com/mihaichris/atelier-toolbox",
+    "extract_dir":  "atelier-toolbox-0.2.2",
+    "url":  "https://github.com/mihaichris/atelier-toolbox/archive/0.2.2.tar.gz",
+    "hash":  "e3a16b6f619ef9583237fc1bb090f5c05d545ef69640dd4022a0a5e9f514f2ae",
+    "bin": "venv\\bin\\toolbox.exe",
+    "checkver": "github",
+    "pre_install": [
+        "$bpath = if ($app.LocalPath) { $app.LocalPath.Directory.Parent.FullName } else { \"$bucketsdir\\$bucket\" }",
+        "& (Join-Path \"$bpath\" \"scripts\\Install-WithVirtualEnv.ps1\")"
+    ],
+    "autoupdate": {
+        "url": "https://github.com/mihaichris/atelier-toolbox/archive/$version.tar.gz",
+        "extract_dir": "atelier-toolbox-$version"
+    }
+}
