@@ -5,7 +5,7 @@
     "homepage": "https://github.com/mihaichris/atelier-toolbox",
     "extract_dir":  "atelier-toolbox-0.2.2",
     "url":  "https://github.com/mihaichris/atelier-toolbox/archive/0.2.2.tar.gz",
-    "hash":  "e3a16b6f619ef9583237fc1bb090f5c05d545ef69640dd4022a0a5e9f514f2ae",
+    "hash":  "ae810dcdd770273b58d2def0fc167850b8fb4cb86d957e1b29485db276e06512",
     "bin": "venv\\bin\\toolbox.exe",
     "checkver": "github",
     "pre_install": [
