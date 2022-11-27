@@ -25,4 +25,4 @@ scoop install <manifest>
 <!-- table-end -->
 
 ## License
-[MIT](https://opensource.org/licenses/MIT)
+[The Unlicense](https://github.com/mihaichris/atelier/blob/main/LICENSE)
