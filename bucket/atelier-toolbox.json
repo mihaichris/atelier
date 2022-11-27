@@ -3,7 +3,7 @@
     "license":  "MIT",
     "description": "Tools for various automations 🧰",
     "homepage": "https://github.com/mihaichris/atelier-toolbox",
-    "url": "https://github.com/mihaichris/atelier-toolbox/release/download/v0.3.2/atelier-toolbox_0.3.2_windows_amd64.zip",
+    "url": "https://github.com/mihaichris/atelier-toolbox/releases/download/v0.3.2/atelier-toolbox_0.3.2_windows_amd64.zip",
     "hash": "ae01ec165f11d3064e0fdfab02b8759d5bb72427f3dd21d25f5615ac7a5a0e0b",
     "extract_dir": "atelier-toolbox-0.3.2",
     "bin": "atelier-toolbox/toolbox.exe",
