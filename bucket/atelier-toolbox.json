@@ -10,6 +10,9 @@
         "github": "https://github.com/mihaichris/atelier-toolbox"
     },
     "autoupdate": {
-        "url": "https://github.com/mihaichris/atelier-toolbox/releases/download/v$version/atelier-toolbox_$version_windows_amd64.zip"
+        "url": "https://github.com/mihaichris/atelier-toolbox/releases/download/v$version/atelier-toolbox_$version_windows_amd64.zip",
+        "hash": {
+            "url": "$baseurl/atelier-toolbox_$version_checksums.txt"
+        }
     }
 }
