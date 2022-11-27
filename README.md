@@ -1,6 +1,6 @@
 # Atelier Scoop Bucket
 
-Personal Automations manifests for Scoop, the Windows command-line installer.
+Personal automations manifests for Scoop, the Windows command-line installer.
 
 [![Tests](https://github.com/mihaichris/atelier/actions/workflows/ci.yml/badge.svg)](https://github.com/mihaichris/atelier/actions/workflows/ci.yml) [![Excavator](https://github.com/mihaichris/atelier/actions/workflows/excavator.yml/badge.svg)](https://github.com/mihaichris/atelier/actions/workflows/excavator.yml)
 
