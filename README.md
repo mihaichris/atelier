@@ -13,7 +13,7 @@ scoop bucket add atelier https://github.com/mihaichris/atelier
 
 To install, do:
 ```powershell
-scoop install <manifest>
+scoop install atelier/<manifest>
 ```
 
 ----
