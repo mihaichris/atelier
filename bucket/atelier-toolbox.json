@@ -1,19 +1,24 @@
 {
-    "version":  "0.2.2",
+    "version":  "0.3.2",
     "license":  "MIT",
     "description": "Tools for various automations 🧰",
     "homepage": "https://github.com/mihaichris/atelier-toolbox",
-    "extract_dir":  "atelier-toolbox-0.2.2",
-    "url":  "https://github.com/mihaichris/atelier-toolbox/archive/0.2.2.tar.gz",
-    "hash":  "ae810dcdd770273b58d2def0fc167850b8fb4cb86d957e1b29485db276e06512",
-    "bin": "venv\\bin\\atelier-toolbox.exe",
-    "checkver": "github",
-    "pre_install": [
-        "$bpath = if ($app.LocalPath) { $app.LocalPath.Directory.Parent.FullName } else { \"$bucketsdir\\$bucket\" }",
-        "& (Join-Path \"$bpath\" \"scripts\\Install-WithVirtualEnv.ps1\")"
-    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mihaichris/atelier-toolbox/relase/download/v0.3.2/atelier-toolbox_0.3.2_windows_amd64.zip",
+            "hash": "ae01ec165f11d3064e0fdfab02b8759d5bb72427f3dd21d25f5615ac7a5a0e0b"
+        },
+    },
+    "bin": "toolbox.exe",
+    "checkver": {
+        "github": "https://github.com/mihaichris/atelier-toolbox"
+    },
     "autoupdate": {
-        "url": "https://github.com/mihaichris/atelier-toolbox/archive/$version.tar.gz",
-        "extract_dir": "atelier-toolbox-$version"
+        "64bit": {
+            "url": "https://github.com/mihaichris/atelier-toolbox/relase/download/v$version/atelier-toolbox_$version_windows_amd64.zip",
+        },
+        "hash": {
+            "url": "$baseurl/atelier-toolbox_$version_checksums.txt"
+        }
     }
 }
