@@ -1,10 +1,10 @@
 {
-    "version":  "0.3.2",
-    "license":  "MIT",
+    "version": "1.0.1",
+    "license": "MIT",
     "description": "Tools for various automations 🧰",
     "homepage": "https://github.com/mihaichris/atelier-toolbox",
-    "url": "https://github.com/mihaichris/atelier-toolbox/releases/download/v0.3.2/atelier-toolbox_v0.3.2_windows_amd64.zip",
-    "hash": "ae01ec165f11d3064e0fdfab02b8759d5bb72427f3dd21d25f5615ac7a5a0e0b",
+    "url": "https://github.com/mihaichris/atelier-toolbox/releases/download/v1.0.1/atelier-toolbox_v1.0.1_windows_amd64.zip",
+    "hash": "785a9bd7c36946e2a6e5e89d854e87481ffd7f6b28f469f4d0d748bb340f0607",
     "bin": "toolbox.exe",
     "checkver": {
         "github": "https://github.com/mihaichris/atelier-toolbox"
